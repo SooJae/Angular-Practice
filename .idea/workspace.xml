@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08b8db45-7fa6-439f-ae0b-b0c52731bfd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Angular-Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/how-to-use.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/cockpit/cockpit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/cockpit/cockpit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/cockpit/cockpit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/server-element/server-element.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/server-element/server-element.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/server-element/server-element.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmp-databinding-start/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/cmp-databinding-start/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cmp-databinding-start/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-use.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-detail/recipe-detail.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-detail/recipe-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-detail/recipe-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-list/recipe-item/recipe-item.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-list/recipe-item/recipe-item.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-list/recipe-item/recipe-item.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-list/recipe-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-list/recipe-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe-list/recipe-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipe.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipes.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipes.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recipes/recipes.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/ingredient.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shopping-list/shopping-edit/shopping-edit.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shopping-list/shopping-edit/shopping-edit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shopping-list/shopping-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shopping-list/shopping-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ao8M45bJDSCNihO1uWecu0oE6H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/cmp-databinding-start/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmp-databinding-start" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/prj-start" />
+      <recent name="$PROJECT_DIR$/src/app/recipes/recipe-list" />
+      <recent name="$PROJECT_DIR$/src/app/header" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (my-first-app-e2e)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/cmp-databinding-start/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/cmp-databinding-start/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08b8db45-7fa6-439f-ae0b-b0c52731bfd4" name="Default Changelist" comment="" />
+      <created>1587390534108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587390534108</updated>
+      <workItem from="1587390535521" duration="2493000" />
+      <workItem from="1587473436417" duration="6169000" />
+      <workItem from="1587562521104" duration="2100000" />
+    </task>
+    <task id="LOCAL-00001" summary="[앵귤러] 앵귤러 연습">
+      <created>1587475470916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587475470916</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[앵귤러] 앵귤러 연습">
+      <created>1587483112744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587483112744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[앵귤러] 앵귤러 연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="[앵귤러] 앵귤러 연습" />
+  </component>
+</project>
