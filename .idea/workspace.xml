@@ -4,9 +4,6 @@
     <list default="true" id="08b8db45-7fa6-439f-ae0b-b0c52731bfd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmp-databinding-start/src/app/cockpit/cockpit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/cockpit/cockpit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmp-databinding-start/src/app/server-element/server-element.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/server-element/server-element.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmp-databinding-start/src/app/server-element/server-element.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cmp-databinding-start/src/app/server-element/server-element.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,25 +29,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
-    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/cmp-databinding-start/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -109,9 +99,8 @@
       <updated>1587390534108</updated>
       <workItem from="1587390535521" duration="2493000" />
       <workItem from="1587473436417" duration="6169000" />
-      <workItem from="1587562521104" duration="2100000" />
-      <workItem from="1587793292668" duration="5604000" />
-      <workItem from="1587878763919" duration="4024000" />
+      <workItem from="1587562521104" duration="3075000" />
+      <workItem from="1587989397749" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="[앵귤러] 앵귤러 연습">
       <created>1587475470916</created>
@@ -127,23 +116,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587483112744</updated>
     </task>
-    <task id="LOCAL-00003" summary="[앵귤러] 앵귤러 연습">
-      <created>1587828777333</created>
+    <task id="LOCAL-00003" summary="[앵귤러] 프로퍼티 바인딩">
+      <created>1587566943697</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1587828777333</updated>
+      <updated>1587566943697</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/cmp-databinding-start/node_modules/karma/config.tpl.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -161,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[앵귤러] 앵귤러 연습" />
-    <option name="LAST_COMMIT_MESSAGE" value="[앵귤러] 앵귤러 연습" />
+    <MESSAGE value="[앵귤러] 프로퍼티 바인딩" />
+    <option name="LAST_COMMIT_MESSAGE" value="[앵귤러] 프로퍼티 바인딩" />
   </component>
 </project>
