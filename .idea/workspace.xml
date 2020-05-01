@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b8db45-7fa6-439f-ae0b-b0c52731bfd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/directives-start/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/directives-start/src/app/basic-highlight/basic-highlight.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/directives-start/src/app/better-highlight/better-highlight.directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cmp-databinding-start" />
+      <recent name="$PROJECT_DIR$/directives-start/src/app/better-highlight" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmp-databinding-start" />
       <recent name="$PROJECT_DIR$/prj-start" />
       <recent name="$PROJECT_DIR$/src/app/recipes/recipe-list" />
-      <recent name="$PROJECT_DIR$/src/app/header" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,6 +92,9 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -121,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587566943697</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[앵귤러] 디렉티브">
+      <created>1588257029934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588257029934</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +161,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[앵귤러] 앵귤러 연습" />
     <MESSAGE value="[앵귤러] 프로퍼티 바인딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="[앵귤러] 프로퍼티 바인딩" />
+    <MESSAGE value="[앵귤러] 디렉티브" />
+    <option name="LAST_COMMIT_MESSAGE" value="[앵귤러] 디렉티브" />
   </component>
 </project>
