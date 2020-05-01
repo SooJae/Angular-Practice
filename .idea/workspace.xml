@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b8db45-7fa6-439f-ae0b-b0c52731bfd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/directives-start/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directives-start/src/app/basic-highlight/basic-highlight.directive.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/directives-start/src/app/better-highlight/better-highlight.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/directives-start/src/app/unless.directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588257029934</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[앵귤러] 디렉티브">
+      <created>1588337416085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588337416085</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

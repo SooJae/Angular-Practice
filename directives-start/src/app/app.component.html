@@ -17,26 +17,37 @@
           </li>
         </div>
 
-        <div *ngIf="!onlyOdd">
-          <li
-            class="list-group-item"
-            [ngClass]="{odd: even % 2 === 0}"
-            [ngStyle]="{backgroundColor: even % 2 !== 0 ? 'yellow': 'transparent'}"
-            *ngFor="let even of evenNumbers">
-            {{even}}
-          </li> ng
-        </div>
-        <ng-template [ngIf]="!onlyOdd">
-          <div>
-            <li
-              class="list-group-item"
-              [ngClass]="{odd: even % 2 === 0}"
-              [ngStyle]="{backgroundColor: even % 2 !== 0 ? 'yellow': 'transparent'}"
-              *ngFor="let even of evenNumbers">
-              {{even}}
-            </li>
-          </div>
-        </ng-template>
+<!--        <div *ngIf="!onlyOdd">-->
+<!--          <li-->
+<!--            class="list-group-item"-->
+<!--            [ngClass]="{odd: even % 2 === 0}"-->
+<!--            [ngStyle]="{backgroundColor: even % 2 !== 0 ? 'yellow': 'transparent'}"-->
+<!--            *ngFor="let even of evenNumbers">-->
+<!--            {{even}}-->
+<!--          </li> ng-->
+<!--        </div>-->
+<!--        <ng-template [ngIf]="!onlyOdd">-->
+<!--          <div>-->
+<!--            <li-->
+<!--              class="list-group-item"-->
+<!--              [ngClass]="{odd: even % 2 === 0}"-->
+<!--              [ngStyle]="{backgroundColor: even % 2 !== 0 ? 'yellow': 'transparent'}"-->
+<!--              *ngFor="let even of evenNumbers">-->
+<!--              {{even}}-->
+<!--            </li>-->
+<!--          </div>-->
+<!--        </ng-template>-->
+
+                <div *appUnless="onlyOdd">
+                  <li
+                    class="list-group-item"
+                    [ngClass]="{odd: even % 2 === 0}"
+                    [ngStyle]="{backgroundColor: even % 2 !== 0 ? 'yellow': 'transparent'}"
+                    *ngFor="let even of evenNumbers">
+                    {{even}}
+                  </li>
+                  ng
+                </div>
       </ul>
      <p appBasicHighlight>Style me with basic highlight </p>
      <p appBetterHighlight [defaultColor]="'yellow'" [highlightColor]="'red'">Style me better basic highlight</p>
