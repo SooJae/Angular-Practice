@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b8db45-7fa6-439f-ae0b-b0c52731bfd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/services-assignment-solution/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services-start/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services-start/src/app/accounts.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services-start/src/app/logging.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services-start/src/app/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj-basics-final/src/app/shopping-list/shopping-list.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-start/src/app/account/account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/account/account.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-start/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-start/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-start/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-start/src/app/new-account/new-account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/new-account/new-account.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-item/recipe-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-item/recipe-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-item/recipe-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-item/recipe-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-list/recipe-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipes.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/shopping-list/shopping-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/shopping-list/shopping-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/shopping-list/shopping-list.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588408592593</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[앵귤러] 서비스">
+      <created>1588492280494</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588492280494</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
