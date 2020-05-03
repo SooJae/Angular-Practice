@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b8db45-7fa6-439f-ae0b-b0c52731bfd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prj-basics-final/src/app/shared/dropdown.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-assignment-solution/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-start/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-start/src/app/accounts.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-start/src/app/logging.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-start/src/app/users.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directives-start/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directives-start/src/app/unless.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/directives-start/src/app/unless.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj-basics-final/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj-basics-final/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-detail/recipe-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/prj-basics-final/src/app/recipes/recipe-detail/recipe-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-start/src/app/account/account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/account/account.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-start/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-start/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-start/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-start/src/app/new-account/new-account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services-start/src/app/new-account/new-account.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,8 +67,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/directives-start/src/app/better-highlight" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/directives-start/src/app/better-highlight" />
       <recent name="$PROJECT_DIR$/cmp-databinding-start" />
       <recent name="$PROJECT_DIR$/prj-start" />
       <recent name="$PROJECT_DIR$/src/app/recipes/recipe-list" />
@@ -154,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588357126127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[앵귤러] 커스텀 구조 디렉티브">
+      <created>1588408546668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588408546668</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[앵귤러] 서비스">
+      <created>1588408592593</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588408592593</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +208,7 @@
     <MESSAGE value="[앵귤러] 프로퍼티 바인딩" />
     <MESSAGE value="[앵귤러] 디렉티브" />
     <MESSAGE value="[앵귤러] 커스텀 구조 디렉티브" />
-    <option name="LAST_COMMIT_MESSAGE" value="[앵귤러] 커스텀 구조 디렉티브" />
+    <MESSAGE value="[앵귤러] 서비스" />
+    <option name="LAST_COMMIT_MESSAGE" value="[앵귤러] 서비스" />
   </component>
 </project>
