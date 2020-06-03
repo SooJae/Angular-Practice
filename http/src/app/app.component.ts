@@ -1,62 +1,85 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {map, tap} from "rxjs/operators";
+import {map, share, tap} from "rxjs/operators";
 import {Post} from "./post.model";
+import {PostsService} from "./post.service";
+import {of, Subject, Subscription} from "rxjs";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
   loadedPosts: Post[] = [];
   isFetching = false;
+  error = null;
+  private errorSub: Subscription;
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private postsService: PostsService) {
   }
 
   ngOnInit() {
-    this.fetchPosts();
+    const observable = of(1, 2, 3, 4);
+    const subject$ = new Subject();
+
+
+    subject$.subscribe(value => console.log('subject', value));
+    subject$.subscribe(value => console.log('subject', value));
+    subject$.subscribe(value => console.log('subject', value));
+    subject$.next(1);
+    subject$.next(2);
+    subject$.next(3);
+
+    // observable.subscribe(console.log);
+    // observable.subscribe(console.log);
+    // observable.subscribe(console.log);
+
+    this.errorSub = this.postsService.error.subscribe(errorMessage => {
+      this.error = errorMessage;
+    });
+    // Send Http request
+    this.isFetching = true;
+    this.postsService.fetchPosts().subscribe(
+      posts => {
+        this.isFetching = false;
+        this.loadedPosts = posts;
+      }, error => {
+        this.isFetching = false;
+        this.error = error.message;
+      });
   }
 
-  onCreatePost(postData) {
-    // Send Http request
-    this.http
-      .post<{ name: string }>(
-        'https://ng-complete-guide-43608.firebaseio.com/posts.json',
-        postData
-      )
-      .subscribe(responseData => {
-        console.log(responseData.name);
-      });
+  onCreatePost(postData: Post) {
+    this.postsService.createAndStorePost(postData.title, postData.content);
   }
 
   onFetchPosts() {
     // Send Http request
-    this.fetchPosts();
+    this.isFetching = true;
+    this.postsService.fetchPosts().subscribe(
+      posts => {
+        this.isFetching = false;
+        this.loadedPosts = posts;
+      },
+      error => {
+        this.isFetching = false;
+        this.error = error.message;
+      });
   }
 
   onClearPosts() {
     // Send Http request
+    this.postsService.deletePosts().subscribe(() => {
+      this.loadedPosts = [];
+    });
   }
 
-  private fetchPosts() {
-    this.isFetching = true;
-    this.http.get<{ [key: string]: Post }>('https://ng-complete-guide-43608.firebaseio.com/posts.json')
-      .pipe(
-        map(responseData => {
-          let postsArray: Post[] = [];
-          Object.keys(responseData)
-            .filter(key => responseData.hasOwnProperty(key))
-            .forEach(key =>
-              postsArray = [...postsArray, {...responseData[key], id: key}]
-            );
-          return postsArray;
-        })
-      )
-      .subscribe(posts => {
-        this.isFetching = false;
-        this.loadedPosts = posts;
-      });
+  ngOnDestroy(): void {
+    this.errorSub.unsubscribe();
+  }
+
+  onHandlerError() {
+    this.error = null;
   }
 }
