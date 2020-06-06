@@ -20,20 +20,6 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    const observable = of(1, 2, 3, 4);
-    const subject$ = new Subject();
-
-
-    subject$.subscribe(value => console.log('subject', value));
-    subject$.subscribe(value => console.log('subject', value));
-    subject$.subscribe(value => console.log('subject', value));
-    subject$.next(1);
-    subject$.next(2);
-    subject$.next(3);
-
-    // observable.subscribe(console.log);
-    // observable.subscribe(console.log);
-    // observable.subscribe(console.log);
 
     this.errorSub = this.postsService.error.subscribe(errorMessage => {
       this.error = errorMessage;
