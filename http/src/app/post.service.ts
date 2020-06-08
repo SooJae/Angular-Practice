@@ -66,7 +66,6 @@ export class PostsService {
       'https://ng-complete-guide-43608.firebaseio.com/posts.json',
       {
         observe: 'events',
-        responseType: 'text',
       }
     ).pipe(tap(event => {
       if (event.type === HttpEventType.Sent) {
